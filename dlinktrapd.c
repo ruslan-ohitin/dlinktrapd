@@ -4,7 +4,7 @@
 
    This is free software and certainly "AS IS" and "NO WARRANTIES"
 
-   Author: Alexander Melnik (0ld@ukr.net), updates, patches and
+   Author: Alexander Melnik (olexander.v.melnyk@gmail.com), updates, patches and
    suggestions are welcomed.
 */
 
@@ -131,7 +131,7 @@ char c[2];
 
 void mylogger(int facility, char *err_string){
  if (debug) printf("Syslog record: \"%s\"\n",err_string);
- syslog(facility,err_string);
+ syslog(facility,"%s",err_string);
  return;
 }
 
