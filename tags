@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFLEN	dlinktrapd.c	37;"	d	file:
+MAXPORTS	dlinktrapd.c	38;"	d	file:
+PIDFILEPATH	dlinktrapd.c	39;"	d	file:
+STATEDIR	dlinktrapd.c	40;"	d	file:
+buf	dlinktrapd.c	/^char			buf[BUFLEN];$/;"	v
+debug	dlinktrapd.c	/^int unsigned		debug=0;$/;"	v
+error	dlinktrapd.c	/^const char		*error;$/;"	v
+get_quantity_of_ports	dlinktrapd.c	/^int get_quantity_of_ports(char *model){$/;"	f
+ip_remote	dlinktrapd.c	/^char			ip_remote[64];$/;"	v
+mac	dlinktrapd.c	/^uint8_t			mac[6];$/;"	v
+main	dlinktrapd.c	/^int main(int argc, char *argv[]){$/;"	f
+model_name	dlinktrapd.c	/^char*	model_name[4]={$/;"	v
+mylogger	dlinktrapd.c	/^void mylogger(int facility, char *err_string){$/;"	f
+outfile	dlinktrapd.c	/^char			outfile[BUFLEN];$/;"	v
+pattern_main	dlinktrapd.c	/^const char		pattern_main[]="^(\\\\S+)\\\\s+\\\\((\\\\d+)\\\\)(.+)$";$/;"	v
+pattern_port	dlinktrapd.c	/^const char		pattern_port[]="^\\\\S+\\\\s+(\\\\d+)\\\\s+\\\\S.+$";$/;"	v
+pidfile	dlinktrapd.c	/^char			pidfile[BUFLEN];$/;"	v
+port	dlinktrapd.c	/^int unsigned		port=64514;$/;"	v
+portArray	dlinktrapd.c	/^int unsigned		portArray[MAXPORTS]={0};$/;"	v
+port_state_change	dlinktrapd.c	/^void port_state_change(int msgCode, char *msg){$/;"	f
+print_dump	dlinktrapd.c	/^static void print_dump(const char *buf,int len){$/;"	f	file:
+progname	dlinktrapd.c	/^char			progname[32];$/;"	v
+qports	dlinktrapd.c	/^int unsigned		qports=0;$/;"	v
+quantity_of_ports	dlinktrapd.c	/^int quantity_of_ports[]={$/;"	v
+re_main	dlinktrapd.c	/^pcre			*re_main;$/;"	v
+re_port	dlinktrapd.c	/^pcre			*re_port;$/;"	v
+savestate	dlinktrapd.c	/^int unsigned		savestate=0;$/;"	v
+sd_main	dlinktrapd.c	/^pcre_extra		*sd_main;$/;"	v
+sd_port	dlinktrapd.c	/^pcre_extra		*sd_port;$/;"	v
+sigchld_handler	dlinktrapd.c	/^static void sigchld_handler(int signo) {$/;"	f	file:
+sigterm_handler	dlinktrapd.c	/^static void sigterm_handler(int signo) {$/;"	f	file:
+statedir	dlinktrapd.c	/^char			statedir[BUFLEN];$/;"	v
+strlcat	dlinktrapd.c	/^size_t strlcat(char *dst, const char *src, size_t size){$/;"	f
+strlcpy	dlinktrapd.c	/^size_t strlcpy(char *dst, const char *src, size_t size){$/;"	f
+switch_state	dlinktrapd.c	/^void switch_state (int pktsize){$/;"	f
+tmpstr	dlinktrapd.c	/^char			tmpstr[BUFLEN*2];$/;"	v
+usage	dlinktrapd.c	/^static void usage(void){$/;"	f	file:
