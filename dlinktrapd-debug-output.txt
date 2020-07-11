@@ -1,0 +1,89 @@
+Running child with pid 9610
+Received packet from 192.168.100.201 (MAC: 00:24:01:d7:71:5c)
+0000: 00 02 00 01 00 24 01 D7 71 5C 00 03 00 09 00 00    .....$..q\......
+0010: 01 94 5A E0 00 00 00 00 00 00 00 00 00 00 00 00    ..Z.............
+0020: 00 00 00 00 00 00 00 00 C0 A8 64 C9 44 45 53 2D    ..........d.DES-
+0030: 31 32 32 38 20 20 20 20 20 20 20 20 20 20 20 20    1228
+0040: 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+0050: 20 20 20 20 20 28 31 30 30 32 29 4C 6F 67 69 6E         (1002)Login
+0060: 20 69 6E 76 61 6C 69 64 20 70 61 73 73 77 6F 72     invalid passwor
+0070: 64 20 66 72 6F 6D 20 31 39 32 2E 31 36 38 2E 31    d from 192.168.1
+0080: 30 30 2E 31                                        00.1
+Model: DES-1228, 0 ports, code of message: 1002, clear message: Login invalid password from 192.168.100.1
+Syslog record: "message from switch 192.168.100.201 (MAC 00:24:01:d7:71:5c): "Login invalid password from 192.168.100.1""
+
+Running child with pid 9644
+Received packet from 192.168.100.200 (MAC: 90:94:e4:45:81:37)
+0000: 00 02 00 01 90 94 E4 45 81 37 00 04 00 10 00 00    .......E.7......
+0010: 01 94 5A E0 00 1B B9 5A 80 D5 00 00 00 00 00 00    ..Z....Z........
+0020: 00 00 00 00 00 00 00 00 00 04 00 08 C0 A8 64 C8    ..............d.
+0030: 00 01 00 10 44 47 53 2D 31 31 30 30 2D 30 38 00    ....DGS-1100-08.
+0040: 00 03 00 09 6B 32 31 36 00 00 1F 00 45 44 47 53    ....k216....EDGS
+0050: 2D 31 31 30 30 2D 30 38 20 57 45 42 20 61 75 74    -1100-08 WEB aut
+0060: 68 65 6E 74 69 63 61 74 65 20 65 72 72 6F 72 20    henticate error
+0070: 66 72 6F 6D 20 72 65 6D 6F 74 65 20 49 50 3A 20    from remote IP:
+0080: 31 39 32 2E 31 36 38 2E 31 30 30 2E 31 00          192.168.100.1.
+Syslog record: "unknown or incorrect message "?d from switch 192.168.100.200 (MAC 90:94:e4:45:81:37)"
+dlinktrapd: unknown or incorrect message "?d from switch 192.168.100.200 (MAC 90:94:e4:45:81:37)
+
+
+Running child with pid 9982
+Received packet from 172.16.100.254 (MAC: 48:ee:0c:84:23:ac)
+0000: 00 02 00 01 48 EE 0C 84 23 AC 00 04 00 10 00 00    ....H...#.......
+0010: 01 94 5A E0 00 1B B9 5A 80 D5 00 00 00 00 00 00    ..Z....Z........
+0020: 00 00 00 00 00 00 00 00 00 04 00 08 AC 10 64 FE    ..............d.
+0030: 00 01 00 10 44 47 53 2D 31 31 30 30 2D 30 38 00    ....DGS-1100-08.
+0040: 00 03 00 05 00 00 1F 00 44 44 47 53 2D 31 31 30    ........DDGS-110
+0050: 30 2D 30 38 20 57 45 42 20 61 75 74 68 65 6E 74    0-08 WEB authent
+0060: 69 63 61 74 65 20 65 72 72 6F 72 20 66 72 6F 6D    icate error from
+0070: 20 72 65 6D 6F 74 65 20 49 50 3A 20 31 37 32 2E     remote IP: 172.
+0080: 31 36 2E 31 30 30 2E 32 00                         16.100.2.
+Syslog record: "unknown or incorrect message "?d?" from switch 172.16.100.254 (MAC 48:ee:0c:84:23:ac)"
+dlinktrapd: unknown or incorrect message "?d?" from switch 172.16.100.254 (MAC 48:ee:0c:84:23:ac)
+
+Running child with pid 15777
+Received packet from 192.168.10.200 (MAC: 00:21:91:f4:a1:33)
+0000: 00 02 00 01 00 21 91 F4 A1 33 00 03 00 09 00 00    .....!...3......
+0010: 01 94 5A E0 00 00 00 00 00 00 00 00 00 00 00 00    ..Z.............
+0020: 00 00 00 00 00 00 00 00 C0 A8 0A C8 44 47 53 2D    ............DGS-
+0030: 31 32 32 34 54 20 20 20 20 20 20 20 20 20 20 20    1224T
+0040: 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+0050: 20 20 20 20 20 28 31 30 30 32 29 4C 6F 67 69 6E         (1002)Login
+0060: 20 69 6E 76 61 6C 69 64 20 70 61 73 73 77 6F 72     invalid passwor
+0070: 64 20 66 72 6F 6D 20 31 30 2E 35 30 2E 31 33 32    d from 10.50.132
+0080: 2E 35                                              .5
+Model: DGS-1224T, 24 ports, code of message: 1002, clear message: Login invalid password from 10.50.132.5
+Syslog record: "message from switch 192.168.10.200 (MAC 00:21:91:f4:a1:33): "Login invalid password from 10.50.132.5""
+
+Running child with pid 15872
+Received packet from 192.168.10.210 (MAC: 90:94:e4:5f:c6:2a)
+0000: 00 02 00 01 90 94 E4 5F C6 2A 00 04 00 10 00 00    ......._.*......
+0010: 01 94 5A E0 26 54 8D 28 95 BD 00 00 00 00 00 00    ..Z.&T.(........
+0020: 00 00 00 00 00 00 00 00 00 04 00 08 C0 A8 0A D2    ................
+0030: 00 01 00 10 44 47 53 2D 31 31 30 30 2D 30 38 00    ....DGS-1100-08.
+0040: 00 03 00 08 4B 2E 36 00 00 1F 00 43 44 47 53 2D    ....K.6....CDGS-
+0050: 31 31 30 30 2D 30 38 20 57 45 42 20 61 75 74 68    1100-08 WEB auth
+0060: 65 6E 74 69 63 61 74 65 20 65 72 72 6F 72 20 66    enticate error f
+0070: 72 6F 6D 20 72 65 6D 6F 74 65 20 49 50 3A 20 31    rom remote IP: 1
+0080: 30 2E 35 30 2E 31 33 32 2E 35 00                   0.50.132.5.
+Syslog record: "unknown or incorrect message "?
+ from switch 192.168.10.210 (MAC 90:94:e4:5f:c6:2a)"
+dlinktrapd: unknown or incorrect message "?
+ from switch 192.168.10.210 (MAC 90:94:e4:5f:c6:2a)
+
+
+Running child with pid 15983
+Received packet from 192.168.10.210 (MAC: 90:94:e4:5f:c6:2a)
+0000: 00 02 00 01 90 94 E4 5F C6 2A 00 04 00 10 00 00    ......._.*......
+0010: 01 94 5A E0 26 54 8D 28 95 BD 00 00 00 00 00 00    ..Z.&T.(........
+0020: 00 00 00 00 00 00 00 00 00 04 00 08 C0 A8 0A D2    ................
+0030: 00 01 00 10 44 47 53 2D 31 31 30 30 2D 30 38 00    ....DGS-1100-08.
+0040: 00 03 00 0B 43 52 5F 5A 4F 4F 00 00 1F 00 43 44    ....CR_ZOO....CD
+0050: 47 53 2D 31 31 30 30 2D 30 38 20 57 45 42 20 61    GS-1100-08 WEB a
+0060: 75 74 68 65 6E 74 69 63 61 74 65 20 65 72 72 6F    uthenticate erro
+0070: 72 20 66 72 6F 6D 20 72 65 6D 6F 74 65 20 49 50    r from remote IP
+0080: 3A 20 31 30 2E 35 30 2E 31 33 32 2E 35 00          : 10.50.132.5.
+Syslog record: "unknown or incorrect message "?
+ from switch 192.168.10.210 (MAC 90:94:e4:5f:c6:2a)"
+dlinktrapd: unknown or incorrect message "?
+ from switch 192.168.10.210 (MAC 90:94:e4:5f:c6:2a)
