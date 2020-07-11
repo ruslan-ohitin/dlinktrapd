@@ -64,7 +64,7 @@ int quantity_of_ports[]={
   10, // DES-2110
    8, // DGS-1100-08
   24, // DGS-1224T
-  28  // DGS-1228
+  28  // DES-1228
 };
 
 extern int		errno;
